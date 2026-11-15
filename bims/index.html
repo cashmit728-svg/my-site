@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="bims.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+<body>
+
+    <div class="container">
+        <label class="card">
+            <input type="checkbox" class="stay">
+            <div class="icard">
+                <div class="front">
+                    <div class="name">BIMS</div><br>
+                    <div class="present">presents</div><br>
+                    <div class="title">MESMERIZE</div><br>
+                    <div class="year">
+                        <div class="y1">2</div>
+                        <div class="y2">0</div>
+                        <div class="y3">2</div>
+                        <div class="y4">6</div>
+                    </div>
+                    <div class="flip">Click Me</div>
+                </div>
+                <div class="back" onclick="event.stopPropagation()">
+                        <p>Please enter you Name.</p><br>
+                        <input type="text" id="mytext" name="identity" placeholder="Welcome" class="t" required><br>
+                        <input type="submit" value="Send" id="mysubmit" class="s">
+                </div>
+            </div>
+        </label>
+    </div>
+
+
+    <script src="bims.js"></script>
+
+</body>
+</html>
